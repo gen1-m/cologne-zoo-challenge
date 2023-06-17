@@ -6,7 +6,7 @@ const animals: Array<Animal> = await $fetch('/api/animals')
 </script>
 
 <template>
-  <div class="mx-12">
+  <div class=" grid mx-12 mb-5 mt-5 justify-items-center ">
     <h1 class="text-4xl">
       Cologne Zoo
     </h1>

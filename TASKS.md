@@ -165,7 +165,16 @@ The zookeepers didn't have time for more information, sorry.
 They'll surely be glad to criticize the first version intensely though and will want to know why you went for the 
 approach you chose.
 
-// Your solution
+### Solution: Task 6
+
+***
+Here's the final look:
+![Website Look](documentation-images/website-look1.png)
+
+Behind this look, I added the values that were left out of the table into the `v-for` loop and created new headers and 
+cells for the new properties. Then, I changed a little the colors of the background and the hover, added borders with 
+color, and finally I centered them all in `app.vue`.  
+***
 
 ### Task 7: Logic Feature
 
