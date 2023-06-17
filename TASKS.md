@@ -111,7 +111,7 @@ Add your solution below, either as an inline text or link to new documentation f
 ### Solution: Task 3
 
 ***
-#### _[Just click me](COLOGNE_ZOO.md)_
+#### _[Just click me](README.md)_
 ***
 
 ### Task 4: Test fixing
