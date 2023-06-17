@@ -1,3 +1,13 @@
+[//]: # (BEFORE YOU READ THIS!!!)
+
+[//]: # (
+I wrote this markdown in my local machine, same as I have done for the rest of the project,
+but it seems that when I use the 'Open Preview' option in StackBlitz it does not show as it does
+in Visual Studio Code or Jetbrains Webstorm, I used both of these to test the particular issue.
+Maybe I am giving it too much of importance but anyway, I thought it mightt be relevant for whomever
+is grading this challenge.
+)
+
 # Cologne Zoo
 
 The Cologne Zoo application provides a summary of the animals and their relevant health data. 
@@ -7,18 +17,19 @@ This document provides information on how to use it.
 ***
 
 ## Table sample with the data:
-| Index | Species   | Gender | Age (yrs)                | Weight (kg) |
-|-------|-----------|--------|--------------------------|-------------|
-| 1     | insect    | male   | 2004-09-10T10:58:56.224Z | 20.3        |
-| 2     | bird      | female | 2000-04-03T04:11:35.138Z | 24.5        |
-| 3     | bear      | male   | 2008-01-20T22:24:01.066Z | 41.7        |
-| 4     | cat       | male   | 2002-02-15T18:39:48.351Z | 48.9        |
-| 5     | lion      | male   | 2022-06-27T08:28:22.445Z | 49.7        |
-| 6     | cetacean  | female | 2018-06-04T05:44:24.826Z | 56.9        |
-| 7     | crocodile | male   | 2011-07-06T14:17:41.663Z | 59.6        |
-| 8     | snake     | female | 2015-05-23T00:54:29.907Z | 62          |
-| 9     | cat       | female | 2021-01-16T06:49:02.399Z | 62.7        |
-| 10    | bear      | male   | 2000-12-31T23:24:33.187Z | 67.2        | 
+| Index | Species |   Name    | Gender | Age (yrs) | Weight (kg) |
+|-------|---------|-----------|--------|-----------|-------------|
+|   1   |  cow    |  Alberto  |  male  |    10     |    203.8    |
+|   2   |  bear   |   Alex    |  male  |    7      |    148.5    |
+|   3   |  dog    | Allison   | female |    3      |    176.9    |
+|   4   |  lion   | Antonio   |  male  |    15     |    170.1    |
+|   5   |  fish   |   Bert    |  male  |    9      |    60.6     |
+|   6   |  dog    |    Bob    |  male  |    11     |     177     |
+|   7   |  snake  |  Carmen   | female |    1      |    38.1     |
+|   8   |  cow    |   Cesar   |  male  |    9      |    97.1     |
+|   9   |  fish   | Christine | female |    0      |    124.2    |
+|   10  |  cat    |  Crystal  | female |    3      |    74.7     |
+
 
 ***
 
