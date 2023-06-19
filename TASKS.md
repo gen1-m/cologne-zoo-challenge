@@ -191,8 +191,20 @@ To calculate the food an animal needs in kilograms in 1 day, the zookeepers use 
 4. If the animal is male, add 20 %
 5. If the animal is a fish: The required food is 0 kg
 
-// Your solution
+### Solution: Task 7
+***
 
+To solve this task, at first I went to [Fake Animals](helpers/fakeAnimal.ts) and [Animal](types.d.ts) to add some 
+modifications in order to make the code easier for me to go on and also making it more efficient. Then, I created a 
+helper function [`calculateFoodPerDay()`](composables/helpers.ts) and passed all the necessary properties as variables. 
+After that, I just applied the formula using arithmetic calculations and different if statements. In the end, I got the
+food value from the `v-for` loop after specifying it first and then added the new table header and the value itself as 
+a 2-decimal-places float number to display on the page.
+
+This is how the table looks after the task is solved: 
+![Website Look](documentation-images/website-look2.png)
+
+***
 ### Task 8: Plan New Feature
 
 After the disastrous specification of the new UI feature in the previous task, the zoo-planners now want to sit down 

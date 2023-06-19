@@ -2,7 +2,6 @@
 import { computed } from 'vue'
 import type { PropType } from 'vue'
 import type { Animal } from '../types'
-import { calculateAgeInYears } from '../composables/helpers'
 
 const props = defineProps({
   animals: {
@@ -27,19 +26,21 @@ const animalsSortedByName = computed(() => props.animals.slice().sort((animalA, 
         <th>Favourite Fruit</th>
         <th>Weight (kg)</th>
         <th>Height (m)</th>
+        <th>Food/Day (kg)</th>
       </tr>
     </thead>
     <tbody>
-      <tr v-for="({ id, species, name, gender, birthdate, weight, height, favouriteFruit }, animalIndex) in animalsSortedByName" :key="id" class=" hover:bg-amber-200 border-b-2 border-amber-900 ">
+      <tr v-for="({ id, species, name, gender, birthdate, age, weight, height, favouriteFruit, foodPerDay }, animalIndex) in animalsSortedByName" :key="id" class=" hover:bg-amber-200 border-b-2 border-amber-900 ">
         <td>{{ animalIndex + 1 }}</td>
         <td>{{ species }}</td>
         <td>{{ name }}</td>
         <td>{{ gender }}</td>
-        <td>{{ calculateAgeInYears(new Date(birthdate)) }}</td>
+        <td>{{ age }}</td>
         <td>{{ birthdate }}</td>
         <td>{{ favouriteFruit }}</td>
         <td>{{ weight }}</td>
         <td>{{ height }}</td>
+        <td>{{ foodPerDay.toFixed(2) }}</td>
       </tr>
     </tbody>
   </table>
