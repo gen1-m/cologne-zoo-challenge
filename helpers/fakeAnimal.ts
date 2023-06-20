@@ -1,9 +1,9 @@
 import type { GenderType } from '@faker-js/faker'
 import { faker } from '@faker-js/faker'
 
-import type { Animal, Fruit, Gender } from '~/types'
+import type { Animal, Fruit, Gender } from '../types'
 // Importing the necessary functions
-import { calculateAgeInYears, calculateFoodPerDay } from '~/composables/helpers'
+import { calculateAgeInYears, calculateFoodPerDay } from '../composables/helpers'
 
 export const fakeAnimal = (): Animal => {
   const gender = faker.helpers.arrayElement(['male', 'female']) as Gender

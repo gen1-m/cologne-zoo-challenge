@@ -111,7 +111,7 @@ Add your solution below, either as an inline text or link to new documentation f
 ### Solution: Task 3
 
 ***
-#### _[Just click me](README.md)_
+#### _[Just click me](FIRST_LOOK.md)_
 ***
 
 ### Task 4: Test fixing
@@ -205,6 +205,7 @@ This is how the table looks after the task is solved:
 ![Website Look](documentation-images/website-look2.png)
 
 ***
+
 ### Task 8: Plan New Feature
 
 After the disastrous specification of the new UI feature in the previous task, the zoo-planners now want to sit down 
@@ -233,11 +234,69 @@ or incomplete staff requirements?
 Don't spend more than 15-30 minutes here - planning like this can quickly become quite complex, and we want 
 to prevent this challenge taking too much of your time!
 
-// Your solution
+### Solution: Task 8
+***
+Feature: Animal Feeding Planner
+
+Requirements Breakdown:
+
+1. Task Planning:
+    - Allow zookeepers to schedule feeding tasks for each animal.
+    - Zookeepers should be able to specify the date and time for each feeding task.
+    - Zookeepers should be able to select the animal for which they are scheduling the feeding task.
+    - Zookeepers should be able to select the type of fruit to be fed to the animal.
+
+2. Overview of Upcoming Feeding Tasks:
+    - The overview should include the following information for each task:
+        - Animal name
+        - Food fruit
+        - Required amount of food
+    - The required amount of food should be calculated using the algorithm from the previous task.
+
+3. Grouping of Tasks by Day:
+    - The feeding tasks should be grouped by day to provide a clear "todo" list for each day.
+    - Each day should display the date.
+    - Under each day, the feeding tasks for that day should be listed.
+
+UI/UX Design Considerations:
+
+1. Task Planning Interface:
+    - Design a user-friendly interface that allows zookeepers to easily schedule feeding tasks.
+    - Include date and time picker controls to specify the date and time for each feeding task.
+    - Provide a dropdown or search functionality to select the animal for each feeding task.
+    - Include a dropdown or input field to select the type of fruit to be fed to the animal.
+
+2. Overview of Upcoming Feeding Tasks:
+    - Design a clear and concise overview section to display the upcoming feeding tasks.
+    - Use a table or list format to present the task information, including the animal name, food fruit, and required 
+      amount of food.
+    - Ensure that the required amount of food is calculated accurately using the algorithm from the previous task.
+
+3. Grouping of Tasks by Day:
+    - Structure the feeding tasks in a hierarchical format, grouped by day.
+    - Display the date prominently for each day to provide a clear distinction.
+    - Use indentation or subheadings to visually separate the feeding tasks under each day.
+
+Questions and Considerations:
+
+- Are there any missing details or inconsistencies in the provided requirements?
+- Are there any specific requirements regarding user roles, access permissions, or authentication?
+- How should the system handle errors or invalid inputs during the task planning process?
+- What validation rules should be implemented for date and time inputs, animal selection, and fruit selection?
+- How will the feeding tasks and related data be stored and managed in the system?
+- Should there be a database or backend system to store the planned tasks?
+- Should the system provide notifications or reminders for upcoming feeding tasks?
+- Should the feeding planner be accessible and optimized for mobile devices, considering that zookeepers may use it on the go?
+
+***
 
 ### Task 9: Finish the documentation
 
 Revisit docs from step 3, see if you want to add anything. Also think about bonuses. 
 Add a general comment about anything (inside the universe of the challenge or out of it) if you want to.
 
-// Your solution
+### Solution: Task 9
+
+***
+_[Just click me](README.md)_
+***
